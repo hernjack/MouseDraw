@@ -5,8 +5,19 @@
     <title>Dibujando con el mouse</title>
   </head>
   <body>
-    <canvas id="areaDibujo" width="300" height="300"></canvas>
-    <p>Mueve el mouse para dibujar</p>
+    <h1>Dibujando con el Mouse</h1>
+    <p>
+      Ingresa el ancho deseado<br/>
+      <input type="text" id="ancho_canvas"/><br/>
+      Ingresa el alto deseado<br/>
+      <input type="text" id="alto_canvas"/><br/>
+      Que color deseas?<br/>
+      <input type="text" id="color_canvas"/>
+      <input type="button" value="Enviar" id="b_enviar"/>
+    </p>
+    <canvas id="areaDibujo" width="50" height="50"></canvas>
     <script src="eventoMouse.js"></script>
+    <p>Mueve el mouse para dibujar</p>
+
   </body>
 </html>
